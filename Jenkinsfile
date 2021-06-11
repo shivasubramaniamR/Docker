@@ -11,7 +11,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 //sh
-                bat "docker build -t='shivadockerexplore/selenium-first' ."
+                bat "docker build -t=shivadockerexplore/selenium-first ."
             }
         }
         stage('Push Image') {
