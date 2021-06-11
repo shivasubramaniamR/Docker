@@ -46,7 +46,7 @@ public class TestChrome {
 			driver.get("https://www.google.co.in");
 			System.out.println("Current URL = "+driver.getCurrentUrl());
 			System.out.println("Page Title = "+driver.getTitle());
-			driver.close();
+			//driver.close();
 			driver.quit();
 		
 	}
